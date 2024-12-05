@@ -74,3 +74,6 @@ xhr.send();
 
 ### Async/Await
 JavaScript is single-threaded (main thread). In order to communicate asynchronously with the server, the processing has to be done somewhere else. In this way, the main thread will be free to use.
+
+## Useful Links
+- https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
