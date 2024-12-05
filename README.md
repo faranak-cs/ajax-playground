@@ -1,5 +1,5 @@
 # Ajax Playground
-Using ajax without using any third-party libraries. Simply using XHR() object
+Interact with server, simply using XHR() object without using any third-party library.
 
 ## Getting Started
 There are four ways to trigger a HTTP request in the context of HTML:
@@ -63,6 +63,8 @@ document.getElementById('products').innerHTML = this.responseText;
 // Send request to the server
 xhr.send();
 ```
+#### Properties
+- readyState
 
 ### Fetch API
 
