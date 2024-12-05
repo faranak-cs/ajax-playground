@@ -65,6 +65,11 @@ xhr.send();
 ```
 #### Properties
 - readyState
+```
+if (xhr.readyState === 4 && xhr.status === 200){
+  // logic
+}
+```
 
 ### Fetch API
 
