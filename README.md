@@ -73,6 +73,11 @@ if (xhr.readyState === 4 && xhr.status === 200){
 
 ### Fetch API
 Fetch uses Promises.
+```
+fetch(url)
+  .then(data)
+  .catch(error)
+```
 
 ### Promises
 Introduced in ES6.
@@ -80,9 +85,26 @@ Introduced in ES6.
 - reject() 
 
 ### Streams
+- json() : returns a promise
+```
+let url = "http://localhost/8080/products"
+let myHeaders = {
+  "Accept" : "application/json"
+}
+fetch (url, {
+  headers : myHeaders
+})
+  .then (res => {
+    return res.json();
+})
+  .then (data => {
+    condole.log(data)
+})
+```
 
 ### Async/Await
 JavaScript is synchronous, single-threaded (main thread) language. In order to communicate asynchronously with the server, the processing has to be done somewhere else. In this way, the main thread will be free to use.
+- Fetch with async/await
 
 ## Useful Links
 - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
