@@ -72,13 +72,18 @@ if (xhr.readyState === 4 && xhr.status === 200){
 ```
 
 ### Fetch API
+Fetch uses Promises.
 
 ### Promises
+Introduced in ES6.
+- resolve()
+- reject() 
 
 ### Streams
 
 ### Async/Await
-JavaScript is single-threaded (main thread). In order to communicate asynchronously with the server, the processing has to be done somewhere else. In this way, the main thread will be free to use.
+JavaScript is synchronous, single-threaded (main thread) language. In order to communicate asynchronously with the server, the processing has to be done somewhere else. In this way, the main thread will be free to use.
 
 ## Useful Links
 - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+- [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://youtu.be/8aGhZQkoFbQ?si=iZkOZ_vSr5RFWqWe)
