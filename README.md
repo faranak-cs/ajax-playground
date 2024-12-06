@@ -27,9 +27,9 @@ Making an Ajax call from JavaScript means sending an asynchronous request to a s
 
 ## Key Concepts
 - XMLHttpRequest object
-- Fetch API
 - Promises (Callback functions)
-- Streams
+- Fetch API
+- Streams API
 - Async/Await
   
 ### XHR
@@ -71,20 +71,20 @@ if (xhr.readyState === 4 && xhr.status === 200){
 }
 ```
 
+### Promises
+Introduced in ES6.
+- resolve()
+- reject()
+
 ### Fetch API
 Fetch uses Promises.
 ```
 fetch(url)
   .then(data)
+  .then(data)
+  ...
   .catch(error)
 ```
-
-### Promises
-Introduced in ES6.
-- resolve()
-- reject() 
-
-### Streams
 - json() : returns a promise
 ```
 let url = "http://localhost/8080/products"
@@ -101,6 +101,9 @@ fetch (url, {
     condole.log(data)
 })
 ```
+
+### Streams API
+
 
 ### Async/Await
 JavaScript is synchronous, single-threaded (main thread) language. In order to communicate asynchronously with the server, the processing has to be done somewhere else. In this way, the main thread will be free to use.
