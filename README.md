@@ -103,7 +103,9 @@ fetch (url, {
 ```
 
 ### Streams API
-
+- Response.body : returns ReadableStream object
+- ReadableStream.getReader() : returns a reader
+- READER.read() : reads a stream
 
 ### Async/Await
 JavaScript is synchronous, single-threaded (main thread) language. In order to communicate asynchronously with the server, the processing has to be done somewhere else. In this way, the main thread will be free to use.
@@ -112,3 +114,4 @@ JavaScript is synchronous, single-threaded (main thread) language. In order to c
 ## Useful Links
 - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 - [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://youtu.be/8aGhZQkoFbQ?si=iZkOZ_vSr5RFWqWe)
+- https://developer.mozilla.org/en-US/docs/Web/API/Streams_API
