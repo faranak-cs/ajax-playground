@@ -1,4 +1,4 @@
-# Ajax Playground
+# AJAX Playground
 Interact with server, simply using XHR() object without using any third-party library.
 
 ## Getting Started
@@ -22,8 +22,8 @@ echo $_COOKIE['user'];
 ?>
 ```
 
-- JavaScript (Ajax):
-Making an Ajax call from JavaScript means sending an asynchronous request to a server to fetch or send data without reloading the web page. OR use a HTTP Client such as Axios.
+- JavaScript (AJAX):
+Making an AJAX call from JavaScript means sending an asynchronous request to a server to fetch or send data without reloading the web page. OR use a HTTP Client such as Axios.
 
 ## Key Concepts
 - XMLHttpRequest object
@@ -48,8 +48,8 @@ let person = new Person();
 let person = Person();
 ```
 
-#### Ajax Call
-The following are the steps to perform an ajax call:
+#### AJAX Call
+The following are the steps to perform an AJAX call:
 ```
 // Create an object using XHR constructor function
 let xhr = new XMLHttpRequest();
