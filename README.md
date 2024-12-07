@@ -77,7 +77,7 @@ Introduced in ES6.
 - reject()
 
 ### Fetch API
-Fetch uses Promises.
+Fetch uses Promises. Runs separately on network thread. 
 ```
 fetch(url)
   .then(data)
