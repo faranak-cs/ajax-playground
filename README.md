@@ -27,10 +27,12 @@ Making an Ajax call from JavaScript means sending an asynchronous request to a s
 
 ## Key Concepts
 - XMLHttpRequest object
-- Promises (Callback functions)
+- Promises
 - Fetch API
 - Streams API
 - Async/Await
+
+Callbacks -> Promises -> Async/Await
   
 ### XHR
 #### Constructor Function
@@ -72,7 +74,7 @@ if (xhr.readyState === 4 && xhr.status === 200){
 ```
 
 ### Promises
-Introduced in ES6.
+Introduced in ES6. Series of nested function calls.
 - resolve()
 - reject()
 
